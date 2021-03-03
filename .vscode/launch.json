@@ -1,0 +1,16 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": ["https://project1.ecen4133.org/identikey/lengthextension/api?token=f4d75558c4b133de605db315664505d9&command=ClockPowerOff&command=NoOp&command=ClockPowerOn"]
+        }
+    ]
+}
